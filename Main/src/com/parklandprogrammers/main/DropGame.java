@@ -116,8 +116,7 @@ public class DropGame implements ApplicationListener {
         // make sure the bucket stays within the screen bounds
         if (bucket.x < 0) {
             bucket.x = 0;
-        }
-        if (bucket.x > 800 - 64) {
+        } else if (bucket.x > 800 - 64) {
             bucket.x = 800 - 64;
         }
 
@@ -129,16 +128,17 @@ public class DropGame implements ApplicationListener {
         // move the raindrops, remove any that are beneath the bottom edge of
         // the screen or that hit the bucket. In the later case we play back
         // a sound effect as well.
-        Iterator<Rectangle> iter = raindrops.iterator();
-        while (iter.hasNext()) {
-            Rectangle raindrop = iter.next();
+        Iterator<Rectangle> iterator = raindrops.iterator();
+        while (iterator.hasNext()) {
+            Rectangle raindrop = iterator.next();
             raindrop.y -= 200 * Gdx.graphics.getDeltaTime();
+
             if (raindrop.y + 64 < 0) {
-                iter.remove();
+                iterator.remove();
             }
             if (raindrop.overlaps(bucket)) {
                 dropSound.play();
-                iter.remove();
+                iterator.remove();
             }
         }
     }
