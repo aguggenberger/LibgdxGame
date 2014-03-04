@@ -74,7 +74,6 @@ public class MyGame extends Game {
     public void dispose(){
         Gdx.app.log(LOG, "Disposing game");
         Assets.dispose();
-        //gameScreen.dispose();
         super.dispose();
     }
 }

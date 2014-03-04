@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c38fdc67-8a69-4e14-a45b-3e0b479d4247" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Main/GameScreen.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Main/src/com/parklandprogrammers/main/MyGame.java" afterPath="$PROJECT_DIR$/Main/src/com/parklandprogrammers/main/MyGame.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="MyLibgdxGame.iws" />
@@ -100,7 +100,7 @@
       <file leaf-file-name="DropActor.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Main/src/com/parklandprogrammers/main/actor/DropActor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="26" selection-start="715" selection-end="715" vertical-scroll-proportion="0.0" vertical-offset="132" max-vertical-offset="1012">
+            <state line="20" column="26" selection-start="715" selection-end="715" vertical-scroll-proportion="0.0" vertical-offset="440" max-vertical-offset="1012">
               <folding />
             </state>
           </provider>
@@ -115,20 +115,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyGame.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="MyGame.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Main/src/com/parklandprogrammers/main/MyGame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="34" selection-start="535" selection-end="535" vertical-scroll-proportion="0.0" vertical-offset="396" max-vertical-offset="1892">
+            <state line="21" column="34" selection-start="535" selection-end="535" vertical-scroll-proportion="0.27251995" vertical-offset="135" max-vertical-offset="1782">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StartGameScreen.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="StartGameScreen.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Main/src/com/parklandprogrammers/main/screen/StartGameScreen.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="31" selection-start="121" selection-end="121" vertical-scroll-proportion="0.075256556" vertical-offset="0" max-vertical-offset="877">
-              <folding />
+            <state line="12" column="5" selection-start="354" selection-end="354" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="440">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -187,13 +189,13 @@
         <option value="$PROJECT_DIR$/Main/src/com/parklandprogrammers/main/screen/Engine.java" />
         <option value="$PROJECT_DIR$/Main/GameScreen.java" />
         <option value="$PROJECT_DIR$/Main/src/com/parklandprogrammers/main/screen/StageScreen.java" />
-        <option value="$PROJECT_DIR$/Main/src/com/parklandprogrammers/main/MyGame.java" />
         <option value="$PROJECT_DIR$/Main/src/com/parklandprogrammers/main/StartGameScreen.java" />
         <option value="$PROJECT_DIR$/Main/src/com/parklandprogrammers/main/screen/StartGameScreen.java" />
         <option value="$PROJECT_DIR$/Desktop/src/com/parklandprogrammers/desktop/DesktopStarter.java" />
         <option value="$PROJECT_DIR$/Main/src/com/parklandprogrammers/main/Assets.java" />
         <option value="$PROJECT_DIR$/Main/src/com/parklandprogrammers/main/screen/AbstractScreen.java" />
         <option value="$PROJECT_DIR$/Main/src/com/parklandprogrammers/main/actor/DropActor.java" />
+        <option value="$PROJECT_DIR$/Main/src/com/parklandprogrammers/main/MyGame.java" />
       </list>
     </option>
   </component>
@@ -228,6 +230,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -264,9 +267,30 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LibgdxGame" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="actor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -345,6 +369,19 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -370,19 +407,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -500,7 +524,11 @@
       <created>1393974231427</created>
       <updated>1393974231427</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added output files&#10;">
+      <created>1393974266474</created>
+      <updated>1393974266474</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -519,7 +547,6 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32970026" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32833788" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32833788" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -531,6 +558,7 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930845" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32833788" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39918256" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -558,6 +586,43 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Main/src/com/parklandprogrammers/main/MyGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="34" selection-start="535" selection-end="535" vertical-scroll-proportion="0.0" vertical-offset="396" max-vertical-offset="1892">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main/src/com/parklandprogrammers/main/screen/StartGameScreen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="40" selection-start="348" selection-end="348" vertical-scroll-proportion="0.0" vertical-offset="242" max-vertical-offset="440">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main/src/com/parklandprogrammers/main/Assets.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="5" selection-start="336" selection-end="336" vertical-scroll-proportion="0.0" vertical-offset="286" max-vertical-offset="550">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main/src/com/parklandprogrammers/main/screen/AbstractScreen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="0" selection-start="997" selection-end="997" vertical-scroll-proportion="0.0" vertical-offset="88" max-vertical-offset="1936">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main/src/com/parklandprogrammers/main/DropGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="58" selection-start="1445" selection-end="1464" vertical-scroll-proportion="0.0" vertical-offset="946" max-vertical-offset="4114">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Main/src/com/parklandprogrammers/main/Scene2dGame.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="34" column="5" selection-start="597" selection-end="1101" vertical-scroll-proportion="0.0" vertical-offset="748" max-vertical-offset="1936">
@@ -589,7 +654,9 @@
     <entry file="file://$PROJECT_DIR$/Main/src/com/parklandprogrammers/main/screen/StartGameScreen.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="1" selection-start="356" selection-end="356" vertical-scroll-proportion="0.0" vertical-offset="286" max-vertical-offset="440">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -832,16 +899,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Main/assets/skin/uiskin.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="69" selection-start="908" selection-end="908" vertical-scroll-proportion="0.3745247" vertical-offset="177" max-vertical-offset="1100">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Main/src/com/parklandprogrammers/main/MyGame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="34" selection-start="535" selection-end="535" vertical-scroll-proportion="0.0" vertical-offset="396" max-vertical-offset="1892">
-          <folding />
-        </state>
+        <state line="17" column="69" selection-start="908" selection-end="908" vertical-scroll-proportion="0.3745247" vertical-offset="177" max-vertical-offset="1100" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Main/src/com/parklandprogrammers/main/Assets.java">
@@ -867,7 +925,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Main/src/com/parklandprogrammers/main/screen/StartGameScreen.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="31" selection-start="121" selection-end="121" vertical-scroll-proportion="0.075256556" vertical-offset="0" max-vertical-offset="877">
+        <state line="12" column="5" selection-start="354" selection-end="354" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="440">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main/src/com/parklandprogrammers/main/MyGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="34" selection-start="535" selection-end="535" vertical-scroll-proportion="0.27251995" vertical-offset="135" max-vertical-offset="1782">
           <folding />
         </state>
       </provider>
