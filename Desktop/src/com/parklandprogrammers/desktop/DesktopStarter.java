@@ -2,6 +2,7 @@ package com.parklandprogrammers.desktop;
 
 import com.badlogic.gdx.backends.lwjgl.LwjglApplication;
 import com.badlogic.gdx.backends.lwjgl.LwjglApplicationConfiguration;
+import com.parklandprogrammers.main.MyGame;
 import com.parklandprogrammers.main.Scene2dGame;
 
 /**
@@ -15,6 +16,7 @@ public class DesktopStarter {
         cfg.height = 480;
         //new LwjglApplication(new DropGame(), cfg);
         //new LwjglApplication(new MyGDXGame(), cfg);
-        new LwjglApplication(new Scene2dGame(), cfg);
+        //new LwjglApplication(new Scene2dGame(), cfg);
+        new LwjglApplication(new MyGame(), cfg);
     }
 }
