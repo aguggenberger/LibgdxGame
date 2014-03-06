@@ -28,7 +28,6 @@ public class MyGame extends Game {
         return new StartGameScreen(this);
     }
 
-
     // Game methods
 
     @Override

@@ -10,6 +10,7 @@ import com.parklandprogrammers.main.Scene2dGame;
  */
 public class DesktopStarter {
     public static void main(String[] args) {
+
         LwjglApplicationConfiguration cfg = new LwjglApplicationConfiguration();
         cfg.useGL20 = true;
         cfg.width = 800;
